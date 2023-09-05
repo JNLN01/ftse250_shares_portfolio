@@ -3,7 +3,7 @@ Used to find the top 10 best performing shares based on the dataframe. In this c
 
 !WIP! 
 
-Algorithm to find the best 10 performing shares of an index over a 3 year period. To then look at them to trade said top 10 using moving averages on the weekly timeframe. 
+Algorithm to find the best 10 performing shares of an index over a 3 year period. To then run a weekly timeframe moving average strategy on the top 10. 
 
 Top 10 performing shares complete... ish. 
 
