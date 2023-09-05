@@ -34,17 +34,20 @@ for symbol in df['Tickers']:
 print(result_df)
 
 # Sort the DataFrame by '3-Year Average Performance' in descending order
-result_df = result_df.sort_values(by='3-Year Average Performance', ascending=False)
+top_result_df = result_df.sort_values(by='3-Year Average Performance', ascending=False)
 
-# Get the top 10 performing stocks
-top_10_stocks = result_df.head(10)
+# Get the top 10 performing shares
+top_ten = top_result_df.head(10)
 
-# Print the top 10 performing stocks
-print("Top 10 Performing Stocks:")
-print(top_10_stocks)
+# Print the top 10 performing shares
+print("Top 10 Performing Shares:")
+print(top_ten)
 
-top_10_stocks.to_csv(ftse250_top_10.csv)
-# Work out a way to find the top 10 performing over 3 years
+top_ten.to_csv()
+
+# Using top 10 work out how to calculate 5 week MA and 13 week MA
+
+# Find way for code to indicate crossovers and buy / short opportunties.
 
 # Backtest against previous data
 
@@ -52,4 +55,4 @@ top_10_stocks.to_csv(ftse250_top_10.csv)
 
 # Work on trade automation of the management
 
-# Diversification specification (Industry)
+# Diversification specification (Industry)?
